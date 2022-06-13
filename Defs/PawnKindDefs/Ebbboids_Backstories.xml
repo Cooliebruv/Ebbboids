@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnKindDef Name="EbbboidBase">
+		<defName>EbbboidBase</defName>
+		<label>ebbboid</label>
+		<race>Ebbboid</race>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>EbbboidBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<initialResistanceRange>0~12</initialResistanceRange>
+		<initialWillRange>0~6</initialWillRange>
+		<combatPower>40</combatPower>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>EbbboidColonist</defName>
+		<label>ebbboid</label>
+		<race>Ebbboid</race>
+		<defaultFactionType>EbbboidPlayerColony</defaultFactionType>
+		<chemicalAddictionChance>0.06</chemicalAddictionChance>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+		</apparelTags>
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>350~600</apparelMoney>
+		<backstoryCryptosleepCommonality>0.2</backstoryCryptosleepCommonality>
+		<techHediffsChance>0.03</techHediffsChance>
+		<techHediffsMoney>50~800</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+			<li>Simple</li>
+			<li>ImplantEmpireCommon</li>
+		</techHediffsTags>
+		<initialResistanceRange>13~21</initialResistanceRange>
+	</PawnKindDef>
+	
+	<PawnKindDef ParentName="BasePlayerPawnKind">
+		<defName>EbbboidTribesperson</defName>
+		<label>member</label>
+		<race>Ebbboid</race>
+		<defaultFactionType>EbbboidPlayerTribe</defaultFactionType>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<apparelTags>
+			<li>Neolithic</li>
+		</apparelTags>
+		<apparelMoney>200~200</apparelMoney>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<techHediffsMoney>50~50</techHediffsMoney>
+		<techHediffsTags>
+			<li>Poor</li>
+		</techHediffsTags>
+		<techHediffsChance>0.02</techHediffsChance>
+		<initialResistanceRange>9~15</initialResistanceRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="EbbboidBase">
+		<defName>EbbboidLeader</defName>
+		<label>ebbboid chief</label>
+		<race>Ebbboid</race>
+		<weaponTags>
+			<li>Neolithic</li>
+		</weaponTags>
+		<itemQuality>Good</itemQuality>
+		<factionLeader>true</factionLeader>
+		<canBeSapper>true</canBeSapper>
+		<apparelMoney>200~700</apparelMoney>
+		<weaponMoney>100~200</weaponMoney>
+		<baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>EbbboidBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<combatPower>120</combatPower>
+		<initialResistanceRange>6~24</initialResistanceRange>
+		<initialWillRange>0~4</initialWillRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="EbbboidBase">
+		<defName>EbbboidWarrior</defName>
+		<label>ebbboid warrior</label>
+		<race>Ebbboid</race>
+		<canBeSapper>true</canBeSapper>
+		<weaponTags>
+			<li>NeolithicMeleeBasic</li>
+			<li>NeolithicMeleeAdvanced</li>
+			<li>NeolithicMeleeDecent</li>
+			<li>NeolithicMeleeDestructive</li>
+		</weaponTags>
+		<apparelMoney>100~300</apparelMoney>
+		<weaponMoney>100~400</weaponMoney>
+		<baseRecruitDifficulty>0.20</baseRecruitDifficulty>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>EbbboidBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<combatPower>80</combatPower>
+		<initialResistanceRange>2~12</initialResistanceRange>
+		<initialWillRange>0~2</initialWillRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="EbbboidBase">
+		<defName>EbbboidArcher</defName>
+		<label>ebbboid archer</label>
+		<race>Ebbboid</race>
+		<canBeSapper>true</canBeSapper>
+		<weaponTags>
+			<li>NeolithicRangedBasic</li>
+			<li>NeolithicRangedDecent</li>
+			<li>NeolithicRangedHeavy</li>
+		</weaponTags>
+		<apparelMoney>50~200</apparelMoney>
+		<weaponMoney>200~400</weaponMoney>
+		<baseRecruitDifficulty>0.1</baseRecruitDifficulty>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>EbbboidBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<combatPower>80</combatPower>
+		<initialResistanceRange>2~12</initialResistanceRange>
+		<initialWillRange>0~2</initialWillRange>
+	</PawnKindDef>
+	<PawnKindDef ParentName="EbbboidBase">
+		<defName>EbbboidTrader</defName>
+		<label>ebbboid trader</label>
+		<race>Ebbboid</race>
+		<canBeSapper>false</canBeSapper>
+		<weaponTags>
+			<li>Neolithic</li>
+		</weaponTags>
+		<apparelMoney>200~800</apparelMoney>
+		<weaponMoney>50~250</weaponMoney>
+		<baseRecruitDifficulty>0.4</baseRecruitDifficulty>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>EbbboidBackstory</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<combatPower>60</combatPower>
+		<initialResistanceRange>2~12</initialResistanceRange>
+		<initialWillRange>0~2</initialWillRange>
+	</PawnKindDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>GrownIntelligent</defName>
+		<title>Intelligent Ebbb</title>
+		<titleShort>Intelligent</titleShort>
+		<baseDescription>[PAWN_nameDef] grew up in an Ebbb hive, but somehow they were able to gain sapience. After growing too big for the hive to accomodate, they set out on the Rim, searching for a place to belong.</baseDescription>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>EbbboidBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>2</amount>
+			</li>
+			<li>
+				<defName>Melee</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>Intelligent</defName>
+		<title>Intelligent Ebbb</title>
+		<titleShort>Intelligent</titleShort>
+		<baseDescription>Sometime after leaving their hive, [PAWN_nameDef] came across a library. They were lost, so they decided to spend the night inside. After countless hours reading, burning and eating books, [PAWN_nameDef] managed to become literate.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>EbbboidBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>7</amount>
+			</li>
+			<li>
+				<defName>Cooking</defName>
+				<amount>3</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>-4</amount>
+			</li>
+		</skillGains>
+	</AlienRace.BackstoryDef>
+
+	<AlienRace.BackstoryDef>
+		<defName>GrownSold</defName>
+		<title>Enslaved Ebbb</title>
+		<titleShort>Enslaved</titleShort>
+		<baseDescription>[PAWN_nameDef] was abducted from their hive and enslaved by humans. After many years of torture and pain, they managed to escape. Now, they wander the Rim in search for a place to belong.</baseDescription>
+		<slot>Childhood</slot>
+		<spawnCategories>
+			<li>EbbboidBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>8</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>4</amount>
+			</li>
+			<li>
+				<defName>Intellectual</defName>
+				<amount>-2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+				<chance>50</chance>
+			</li>
+		</forcedTraits>
+		<workDisables>
+			<li>Animals</li>
+			<li>Artistic</li>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+	<AlienRace.BackstoryDef>
+		<defName>Poached</defName>
+		<title>Poached Ebbb</title>
+		<titleShort>Poached</titleShort>
+		<baseDescription>[PAWN_nameDef] was attacked one day by human poachers, but they fended them off. This encounter instilled in them a deep sense of hatred towards other species.</baseDescription>
+		<slot>Adulthood</slot>
+		<spawnCategories>
+			<li>EbbboidBackstory</li>
+		</spawnCategories>
+		<skillGains>
+			<li>
+				<defName>Melee</defName>
+				<amount>5</amount>
+			</li>
+			<li>
+				<defName>Shooting</defName>
+				<amount>2</amount>
+			</li>
+		</skillGains>
+		<forcedTraits>
+			<li>
+				<defName>Xenophobia</defName>
+				<degree>1</degree>
+			</li>
+		</forcedTraits>
+		<workDisables>
+			<li>ManualSkilled</li>
+			<li>Artistic</li>
+			<li>Social</li>
+		</workDisables>
+	</AlienRace.BackstoryDef>
+</Defs>
