@@ -49,7 +49,7 @@
 							</first>
 						</li>
 					</colorChannels>
-					<aliencrowntypes Inherit="false">
+					<aliencrowntypes Inherit="False">
 						<li>Average_Normal</li>
 						<li>OneEye</li>
 					</aliencrowntypes>
@@ -57,7 +57,7 @@
 					<useGenderedBodies>false</useGenderedBodies>
 				</alienPartGenerator>
 			</generalSettings>
-			<graphicPaths Inherit="false">
+			<graphicPaths Inherit="False">
 				<li>
 					<body>Things/Pawn/Humanlike/Ebbboids/Bodies/</body>
 					<head>Things/Pawn/Humanlike/Ebbboids/Heads/</head>
