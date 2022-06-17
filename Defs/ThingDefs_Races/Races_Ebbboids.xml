@@ -76,14 +76,14 @@
 			</compatibility>
 		</alienRace>
 		<race>
-			<makesFootprints>false</makesFootprints>
+			<makesFootprints>true</makesFootprints>
 			<lifeExpectancy>260</lifeExpectancy>
-			<leatherDef>Leather_Ebbb</leatherDef>
+			<leatherDef>Leather_Ebbboid</leatherDef>
 			<baseBodySize>0.8</baseBodySize>
 			<baseHealthScale>0.8</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
 			<gestationPeriodDays>10</gestationPeriodDays>
-			<useMeatFrom>Ebbb</useMeatFrom>
+			<meatMarketValue>0.6</meatMarketValue>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
@@ -99,8 +99,7 @@
 					<li>(70,0)</li>
 				</points>
 			</ageGenerationCurve>
-			<fleshType>Ebbbish</fleshType>
-			<bloodDef>Filth_BloodEbbb</bloodDef>
+			<meatColor>(50,50,50)</meatColor>
 		</race>
 
 		<statBases>
